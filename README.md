@@ -11,6 +11,7 @@ This repository contains example Python code designed to run on Google Cloud Fun
 
 ## Functions
 
+
 ### 1. `process_file`
 - **Trigger**: Cloud Storage upload event
 - **Description**: This function is triggered when a file is uploaded to a specified Cloud Storage bucket. It processes text files (`.txt`) by downloading and printing their content. For other file types, it simply logs the upload.
